@@ -1,6 +1,6 @@
 # PROJECT 2
 
-- **Project Name:** Card List
+- **Project Name:** Yu-Gi-Store
 - **Project By:**   Nyijia Morgan
 - [**LINK TO GITHUB**](https://github.com/nmorgan24/project2)
 - [**LINK TO DEPLOYED WEBSITE**](https://project2-q0f5.onrender.com)
@@ -9,7 +9,7 @@
 
 ## Description
 
-Card List is a user-friendly website that empowers users to create an account, login, and seamlessly store and save their list of cards. Whether you're an avid collector of trading cards, sports cards, or any other type of cards, Card List provides the perfect digital space to organize and manage your collection. With a secure account, users gain access to a personalized dashboard where they can effortlessly categorize and curate their cards based on their own preferences. Uploading card images or manually inputting card details ensures that your collection is accurately documented. With Card List, finding specific cards within your collection is a breeze thanks to its intuitive search and filtering functionality. Plus, rest assured knowing that your card list is safely stored and protected. Join CardStash today and take control of your card collection like never before!
+Welcome to Yu-Gi-Store, the ultimate digital haven for Yu-Gi-Oh card collectors! Yu-Gi-Store is a user-friendly website that enables users to create an account, login, and effortlessly store and save their list of Yu-Gi-Oh cards. As a passionate collector, you can now organize and manage your cherished collection in one convenient online space. Upon creating a secure account, users gain access to a personalized dashboard where they can meticulously categorize and curate their Yu-Gi-Oh cards based on their own preferences. Whether you want to sort your cards by rarity, archetype, or edition, Yu-Gi-Store offers intuitive tools to streamline the process. From uploading card images to inputting detailed card information, you can ensure that your collection is accurately documented and beautifully showcased. Need to find a specific card? Yu-Gi-Store's robust search and filtering capabilities make it a breeze to locate and access any card in your collection. Rest assured, your valuable Yu-Gi-Oh cards are securely stored and protected. Join Yu-Gi-Store today and experience the joy of preserving and managing your treasured Yu-Gi-Oh collection with ease!
 
 ## Mock UP of UI
 
