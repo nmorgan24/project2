@@ -5,7 +5,7 @@
 - [**LINK TO GITHUB**](https://github.com/nmorgan24/project2)
 - [**LINK TO DEPLOYED WEBSITE**](https://project2-q0f5.onrender.com)
 - **List of Technologies used:** HTML, JS, CSS, Node, Express, EJS, Mongo
-- [**LINK TO TRELLO**](http://www.render.com)
+- [**LINK TO TRELLO**](https://trello.com/b/Ni7pLkRg/project-2)
 
 ## Description
 
