@@ -27,6 +27,12 @@ Card List is a user-friendly website that empowers users to create an account, l
 |/cards/newCard | POST | Add new card to list |
 
 
+## List of Technologies used
+
+- ![List of Technologies used](./images/3c11b3fbe6033bf2aab58db812d283bcb24ddd1f.webp)
+
+
+
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
 ![PICTURE OF ERD](./images/Screenshot%202023-07-09%20114227.png)
