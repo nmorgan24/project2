@@ -9,7 +9,7 @@
 
 ## Description
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+Card List is a user-friendly website that empowers users to create an account, login, and seamlessly store and save their list of cards. Whether you're an avid collector of trading cards, sports cards, or any other type of cards, Card List provides the perfect digital space to organize and manage your collection. With a secure account, users gain access to a personalized dashboard where they can effortlessly categorize and curate their cards based on their own preferences. Uploading card images or manually inputting card details ensures that your collection is accurately documented. With Card List, finding specific cards within your collection is a breeze thanks to its intuitive search and filtering functionality. Plus, rest assured knowing that your card list is safely stored and protected. Join CardStash today and take control of your card collection like never before!
 
 ## Mock UP of UI
 
@@ -29,6 +29,6 @@
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
-![PICTURE OF ERD](http://imgur.com)
+![PICTURE OF ERD](./images/Screenshot%202023-07-09%20114227.png)
 
 - [Free ERD Diagram Tool](https://dbdiagram.io/home)# project2
