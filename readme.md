@@ -1,9 +1,9 @@
 # PROJECT 2
 
-- **Project Name:** jlkdjfljdflkjflsdfj
-- **Project By:** your name
-- [**LINK TO GITHUB**](http://www.github.com)
-- [**LINK TO DEPLOYED WEBSITE**](http://www.render.com)
+- **Project Name:** Card List
+- **Project By:**   Nyijia Morgan
+- [**LINK TO GITHUB**](https://github.com/nmorgan24/project2)
+- [**LINK TO DEPLOYED WEBSITE**](https://project2-q0f5.onrender.com)
 - **List of Technologies used:** HTML, JS, CSS, Node, Express, EJS, Mongo
 - [**LINK TO TRELLO**](http://www.render.com)
 
@@ -13,18 +13,22 @@
 
 ## Mock UP of UI
 
-- ![Desktop View](http://imgur.com)
-- ![Mobile View](http://imgur.com)
+- ![Desktop View & Mobile View](./images/Screenshot%202023-07-09%20110102.png)
+
 
 ## List of Backend Endpoints
 
 | ENDPOINT | METHOD | PURPOSE |
 |----------|--------|---------|
-| /dog | get | list all dogs |
-|/dog/:id | get | list one dog |
+|/users/login | POST | Login Page |
+|/users/register | POST | Register Page |
+|/cards/mycards | GET | List of cards |
+|/cards/card/id: | GET | card Details |
+|/cards/newCard | POST | Add new card to list |
+
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
 ![PICTURE OF ERD](http://imgur.com)
 
-- [Free ERD Diagram Tool](https://dbdiagram.io/home)
+- [Free ERD Diagram Tool](https://dbdiagram.io/home)# project2
