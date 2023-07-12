@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs') %>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <div>
+            
+            <form action="/card" method="post">
+                <fieldset>
+                    <legend>Add a new card</legend>
+                    <label>Name: <input required type="text" name="name" placeholder="enter card name"/></label>
+                    <label>Type: <input type="text" name="type" placeholder="enter card type"/></label>
+                    <label>Playable: <input type="checkbox" name="Playable"/></label>
+                    <input type="submit" value="Add new card"/>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

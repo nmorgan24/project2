@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs') %>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <div>
+            <form method="POST" action="/card/<%=card._id%>?_method=PUT">
+                <fieldset>
+                    <legend>Create a new card</legend>
+                    <label>Name: <input required type="text" name="name" placeholder="enter card name" value="<%=card.name%>"/></label>
+                    <label>Type: <input type="text" name="type" placeholder="enter card type" value="<%=card.type%>"/></label>
+                    <label>Playable: 
+
+                        <input 
+                            type="checkbox" 
+                            name="Playable" 
+                            <%=card.playable ? "checked" : "" %>
+                        />
+
+                    </label>
+                    <input type="submit" value="edit card"/>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

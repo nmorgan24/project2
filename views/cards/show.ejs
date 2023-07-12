@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs') %>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <div>
+            <article>
+                <h2><%= card.name%> - <%=card.Playable ? "Playable" : "Not Playable" %></h2>
+                <h3><%= card.type%></h3>
+                
+                <a href="/card/<%=card._id %>/edit"><button>Edit</button></a>
+                <form action="/card/<%=card._id %>?_method=DELETE" method="POST">
+                    <input type="submit" value="delete" />
+                </form>
+
+                <a href="/card"><button>Back To Main</button></a>
+            </article>
+            
+
+
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs') %>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <div>
+            <p><%= user%></p>
+            <a href="/user/logout"><button>Logout</button></a>
+            <a href="/card/new">Create New Card</a>
+            <% for (card of cards) { %>
+                <article>
+                    <a href="/card/<%= card._id %>">
+                        <h2>
+                            <%= card.name %>
+                        </h2>
+                    </a>
+                </article>
+            <% } %>
+        </div>
+    </main>
+</body>
+</html>
