@@ -5,14 +5,18 @@
     <%- include('../partials/header.ejs') %>
     <main>
         <div>
-            
             <form action="/card" method="post">
-                <fieldset>
-                    <legend>Add a new card</legend>
-                    <label>Name: <input required type="text" name="name" placeholder="enter card name"/></label>
-                    <label>Type: <input type="text" name="type" placeholder="enter card type"/></label>
-                    <label>Playable: <input type="checkbox" name="Playable"/></label>
-                    <input type="submit" value="Add new card"/>
+                <fieldset id="cardSet" >
+                    <legend>Create A New Card</legend>
+                    <div id="cardInput">
+                    <label>Name:<br> <input type="text" name="name" placeholder="Enter Card Name" /></label>
+                    <label>type: <br><input type="text" name="type" placeholder="Enter Card Type" /></label>
+                    <label>ATK: <input type="number" name="atk" placeholder="Card ATK" /></label>
+                    <label>DEF:<br> <input type="number" name="def" placeholder="Card DEF" /></label>
+                    <label>Image URL:<br> <input type="text" name="img" placeholder="Card's image URL" /></label>
+                    <label>Is Card Playable? <input type="checkbox" name="Playable" /></label>
+                    <input type="submit" value="Create New Card" />
+                    </div>
                 </fieldset>
             </form>
         </div>

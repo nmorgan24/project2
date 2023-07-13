@@ -10,7 +10,7 @@ mongoose.connection.on('open', async () => {
 
     //1b. then using startCards, we will insert that into the db
     const startCards = [
-        { name: "Tornado Dragon", type: "XYZ Monster", atk: 2100, def: 2000, level: 4, img: "https://images.ygoprodeck.com/images/cards_small/6983839.jpg", Playable: true },
+        { name: "Tornado Dragon", type: "XYZ Monster", atk: 2100, def: 2000, level: 4, img: "https://images.ygoprodeck.com/images/cards/6983839.jpg", Playable: true },
 
         { name: "Summoned Skull", type: "Normal Monster", atk: 2500, def: 1200, level: 6, img: "https://images.ygoprodeck.com/images/cards_small/70781052.jpg", Playable: false },
 

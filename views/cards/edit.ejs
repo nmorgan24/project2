@@ -4,25 +4,32 @@
 <body>
     <%- include('../partials/header.ejs') %>
     <main>
-        <div>
-            <form method="POST" action="/card/<%=card._id%>?_method=PUT">
-                <fieldset>
-                    <legend>Create a new card</legend>
-                    <label>Name: <input required type="text" name="name" placeholder="enter card name" value="<%=card.name%>"/></label>
-                    <label>Type: <input type="text" name="type" placeholder="enter card type" value="<%=card.type%>"/></label>
-                    <label>Playable: 
-
+        <div class="container">
+            <form method="POST" action="/card/<%= card._id %>?_method=PUT">
+                <fieldset id="cardSet" >
+                    <legend>Edit <%= card.name %></legend>
+                    <div id="cardInput">
+                    <label>Name:<br> <input type="text" name="name" placeholder="Enter Card Name" value="<%= card.name %>"/></label>
+                    <label>Type: <br><input type="text" name="type" placeholder="Enter Card Type" value="<%= card.type %>"/></label>
+                    <label>ATK: <input type="number" name="atk" placeholder="Card ATK" value="<%= card.atk %>"/></label>
+                    <label>DEF:<br> <input type="number" name="def" placeholder="Card DEF" value="<%= card.def %>"/></label>
+                    <label>Image URL:<br> <input type="text" name="img" placeholder="Card's image URL" value="<%= card.img %>"/></label>
+                    <label>Is Card Playable? 
+                    
                         <input 
                             type="checkbox" 
                             name="Playable" 
-                            <%=card.playable ? "checked" : "" %>
+                            <%= card.Playable ? "checked" : "" %>
                         />
-
+                    
                     </label>
-                    <input type="submit" value="edit card"/>
+                    <input type="submit" value= 'Update <%= card.name %>'/>
+                    </div>
                 </fieldset>
             </form>
+            
         </div>
+    
     </main>
 </body>
 </html>

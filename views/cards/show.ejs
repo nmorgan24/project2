@@ -4,22 +4,28 @@
 <body>
     <%- include('../partials/header.ejs') %>
     <main>
-        <div>
-            <article>
-                <h2><%= card.name%> - <%=card.Playable ? "Playable" : "Not Playable" %></h2>
-                <h3><%= card.type%></h3>
-                
-                <a href="/card/<%=card._id %>/edit"><button>Edit</button></a>
-                <form action="/card/<%=card._id %>?_method=DELETE" method="POST">
-                    <input type="submit" value="delete" />
-                </form>
+        <div class="CardBox">
 
-                <a href="/card"><button>Back To Main</button></a>
-            </article>
+            <ul class="CardUl">
+                <li class="dexCard" id="Tcard"><a href="/card/<%= card._id %>"><%= card.name %></a></li>
+                <li class="dexCard"><img class="CardImg" src="<%= card.img %>"></li>
+                <div class="lowCard">
+                <li class="cardAttributes">Type: <%= card.type %> Card Type</li>
+                <li class="cardAttributes">ATK: <%= card.atk %></li>
+                <li class="cardAttributes">DEF: <%= card.def %></li>
+                <li class="cardAttributes"> <%=card.Playable ? "Playable" : "NOT Playable" %></li>
+                </div>
+
+                <div class="buttons">
+                    <a href="/card/<%= card._id %>/edit"><button>Edit Card</button></a>
+                    <form action="/card/<%= card._id %>?_method=DELETE" method="POST">
+                        <input type="submit" value="Delete Card"/>
+                    </form>
+                    </div>
+            </ul>
             
-
-
         </div>
+    
     </main>
 </body>
 </html>
