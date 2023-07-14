@@ -24,7 +24,7 @@ Welcome to Yu-Gi-Store, the ultimate digital haven for Yu-Gi-Oh card collectors!
 |/users/login | POST | Login Page |
 |/user/signup | POST | Register Page |
 |/card | GET | List of cards |
-|/cards/card/id: | GET | card Details |
+|/card/id: | GET | card Details |
 |/card/new | POST | Add new card to list |
 |/card/id/edit | POST | Edit card |
 
