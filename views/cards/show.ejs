@@ -7,10 +7,11 @@
         <div class="CardBox">
 
             <ul class="CardUl">
-                <li class="dexCard" id="Tcard"><a href="/card/<%= card._id %>"><%= card.name %></a></li>
-                <li class="dexCard"><img class="CardImg" src="<%= card.img %>"></li>
                 <div class="lowCard">
+                <li class="dexCard"><img class="CardImg" src="<%= card.img %>"></li>
+                <li class="dexCard" id="Tcard"><a href="/card/<%= card._id %>"><%= card.name %></a></li>
                 <li class="cardAttributes">Type: <%= card.type %></li>
+                <li class="cardAttributes">Level: <%= card.level %></li>
                 <li class="cardAttributes">ATK: <%= card.atk %></li>
                 <li class="cardAttributes">DEF: <%= card.def %></li>
                 <li class="cardAttributes"> <%=card.Playable ? "Playable" : "NOT Playable" %></li>

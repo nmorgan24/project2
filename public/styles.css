@@ -1,6 +1,7 @@
 body{
     text-align: center;
-    background-image: url();
+    background-image: url(./images/Aha7bM.jpg);
+    background-color: beige;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Sorts Mill Goudy', serif;
@@ -13,21 +14,117 @@ h1{
 
 
 .cardAttributes{
-    color: crimson;
+    color: greenyellow;
     font-family: 'Sorts Mill Goudy', serif; 
-    text-align: center;
+    text-align: left;
+    background-color: transparent;
+    font-size: large;
+    background-origin: padding-box;
 }
 
 button{
-    color: darkmagenta;
-    background: tan;
+    color: greenyellow;
+    background: white;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
 }
 
-input{
+.input{
     background: tan;
     color: crimson;
 }
 
 h2{
-    color: crimson;
+    color: white
 }
+
+.lowCard{
+    width: 500px;
+    height: 710px;
+    background-color: tan;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    outline: 10px solid black;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+    overflow: hidden;
+    background-image: url(./images/s-l1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CardImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-top-left-radius: 15px 30px;
+    border-top-right-radius: 15px 30px;
+    border-bottom-left-radius: 15px 30px;
+    border-bottom-right-radius: 15px 30px;
+}
+
+a{
+    font-size: large;
+    color: greenyellow;
+}
+
+label{
+    width: 350px;
+    background-color: tomato;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+    color: white;
+    align-items: center;
+}
+
+
+#cardInput{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+legend{
+    color: white;
+    font-size: xx-large;
+}
+
+input{
+    color: greenyellow
+}
+
+fieldset{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+p{
+    font-size: xxx-large;
+    color: yellow
+}
+
+.buttons > form > input{
+    color: white;
+    background: crimson;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+}
+
+

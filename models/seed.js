@@ -16,7 +16,7 @@ mongoose.connection.on('open', async () => {
 
         { name: "Dark Magician", type: "Normal Monster", atk: 2500, def: 2100, level: 7, img: "https://images.ygoprodeck.com/images/cards_small/46986421.jpg", Playable: true },
 
-        { name: "Dark Magician Girl", type: "Effect Monster", atk: 2000, def: 1700, level: 6, img: "https://images.ygoprodeck.com/images/cards_small/38033121.jpg", Playable: true },
+        { name: "Dark Magician Girl", type: "Effect Monster", atk: 2000, def: 1700, level: 6, img: "https://images.ygoprodeck.com/images/cards/38033121.jpg", Playable: true },
 
         { name: "Blue-Eyes White Dragon", type: "Normal Monster", atk: 3000, def: 2500, level: 8, img: "https://images.ygoprodeck.com/images/cards_small/89631139.jpg", Playable: true },
     ];
@@ -25,3 +25,5 @@ mongoose.connection.on('open', async () => {
     //2. we are going to close the connection
     mongoose.connection.close();
 });
+
+
