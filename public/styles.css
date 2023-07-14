@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+h1{
+    color: white;
+    
+}
+
+
+.cardAttributes{
+    color: crimson;
+    font-family: 'Sorts Mill Goudy', serif; 
+    text-align: center;
+}
+
+button{
+    color: darkmagenta;
+    background: tan;
+}
+
+input{
+    background: tan;
+    color: crimson;
+}
+
+h2{
+    color: crimson;
+}

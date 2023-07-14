@@ -3,8 +3,11 @@ const mongoose = require('./connection');
 // schema which will go into model
 const cardSchema = new mongoose.Schema({
     name: String,
-    color: String, 
-    readyToEat: Boolean,
+    img: String,
+    type: String,
+    atk: Number,
+    def: Number,
+    Playable: Boolean,
     username: String,
 });
 
