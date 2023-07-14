@@ -13,7 +13,8 @@ Welcome to Yu-Gi-Store, the ultimate digital haven for Yu-Gi-Oh card collectors!
 
 ## Mock UP of UI
 
-- ![Desktop View & Mobile View](./images/Screenshot%202023-07-09%20110102.png)
+- ![Desktop View & Mobile View](./img/Screenshot%202023-07-14%20113115.png)
+- ![Desktop View & Mobile View](./img/Screenshot%202023-07-14%20114530.png)
 
 
 ## List of Backend Endpoints
@@ -21,20 +22,22 @@ Welcome to Yu-Gi-Store, the ultimate digital haven for Yu-Gi-Oh card collectors!
 | ENDPOINT | METHOD | PURPOSE |
 |----------|--------|---------|
 |/users/login | POST | Login Page |
-|/users/register | POST | Register Page |
-|/cards/mycards | GET | List of cards |
+|/user/signup | POST | Register Page |
+|/card | GET | List of cards |
 |/cards/card/id: | GET | card Details |
-|/cards/newCard | POST | Add new card to list |
+|/card/new | POST | Add new card to list |
+|/card/id/edit | POST | Edit card |
+
 
 
 ## List of Technologies used
 
-- ![List of Technologies used](./images/3c11b3fbe6033bf2aab58db812d283bcb24ddd1f.webp)
+- ![List of Technologies used](./img/3c11b3fbe6033bf2aab58db812d283bcb24ddd1f.webp)
 
 
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
-![PICTURE OF ERD](./images/Screenshot%202023-07-09%20114227.png)
+![PICTURE OF ERD](./img/Screenshot%202023-07-09%20114227.png)
 
 - [Free ERD Diagram Tool](https://dbdiagram.io/home)# project2
